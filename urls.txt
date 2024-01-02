@@ -1,0 +1,8 @@
+// Required Extension
+https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension&ssr=false#review-details
+
+// Theme
+https://marketplace.visualstudio.com/items?itemName=DaltonMenezes.aura-theme
+
+// File Icons
+https://marketplace.visualstudio.com/items?itemName=Equinusocio.moxer-icons
