@@ -6,3 +6,6 @@ https://marketplace.visualstudio.com/items?itemName=DaltonMenezes.aura-theme
 
 // File Icons
 https://marketplace.visualstudio.com/items?itemName=Equinusocio.moxer-icons
+
+// Font
+https://www.jetbrains.com/lp/mono/
