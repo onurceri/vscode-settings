@@ -4,17 +4,51 @@
     "command": "workbench.action.terminal.focus"
   },
   {
-    "key": "ctrl+`",
-    "command": "workbench.action.focusActiveEditorGroup",
-    "when": "terminalFocus"
+    "key": "shift+cmd+g",
+    "command": "workbench.scm.focus"
   },
   {
     "key": "shift+cmd+g",
-    "command": "workbench.view.scm",
-    "when": "workbench.scm.active"
+    "command": "workbench.view.scm"
   },
   {
     "key": "shift+cmd+t",
     "command": "workbench.view.extension.test"
+  },
+  {
+    "key": "shift+alt+l",
+    "command": "workbench.files.action.showActiveFileInExplorer"
+  },
+  {
+    "key": "cmd+[BracketLeft]",
+    "command": "workbench.action.newWindowTab"
+  },
+  {
+    "key": "cmd+[BracketRight]",
+    "command": "workbench.action.showNextWindowTab"
+  },
+  {
+    "key": "cmd+k cmd+p",
+    "command": "workbench.action.splitEditorRight"
+  },
+  {
+    "key": "ctrl+pageUp",
+    "command": "editorScroll",
+    "when": "editorTextFocus",
+    "args": {
+      "to": "up",
+      "by": "line",
+      "revealCursor": true
+    }
+  },
+  {
+    "key": "ctrl+pageDown",
+    "command": "editorScroll",
+    "when": "editorTextFocus",
+    "args": {
+      "to": "down",
+      "by": "line",
+      "revealCursor": true
+    }
   }
 ]
